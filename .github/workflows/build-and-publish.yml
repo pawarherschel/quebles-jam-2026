@@ -30,7 +30,7 @@ name: "Build and Publish Demo"
 on:
   push:
     branches:
-      - 'demo-version'
+      - 'main'
   workflow_dispatch:
 
 env:
