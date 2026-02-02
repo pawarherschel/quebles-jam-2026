@@ -43,7 +43,7 @@ level_won_scene = ExtResource("8_rkfhe")
 
 [node name="SceneLister" type="Node" parent="LevelManager" unique_id=133933393]
 script = ExtResource("9_g2ndc")
-directory = "res://scenes/game_scene/levels"
+files = Array[String](["res://scenes/game_scene/levels/level_1.tscn"])
 
 [node name="LevelLoadingScreen" parent="." unique_id=919626737 instance=ExtResource("10_0v86b")]
 visible = false
