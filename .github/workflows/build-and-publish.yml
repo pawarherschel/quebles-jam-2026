@@ -203,7 +203,3 @@ jobs:
       - name: Upload to Itch.io - Linux
         run: |
           ./butler push builds/linux ${{ env.ITCH_USERNAME }}/${{ env.ITCH_GAME }}:linux --userversion "${{ steps.latest.outputs.tag }}"
-
-      - name: Upload to Itch.io - macOS
-        run: |
-          ./butler push builds/mac ${{ env.ITCH_USERNAME }}/${{ env.ITCH_GAME }}:mac --userversion "${{ steps.latest.outputs.tag }}"
